@@ -1,0 +1,20 @@
+header {
+    text-align: center;
+}
+
+.tracking {
+    display: block;
+    font-size: 50px;
+}
+
+#crystals {
+    display: block;
+}
+
+#targetDisplay {
+    margin: 10px;
+    background-color: #4a65c6;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}

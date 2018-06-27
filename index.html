@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1>CRYSTAL CASTLE CLASSIC</h1>
+
+        <p id="instructions">Welcome to the Crystal Castle! In order to play, click on any of the crystals down below. Your goal is to equal the
+            number I give you. Each of the crystals has its own value. In order to win, you have to equal the number I've
+            given you. Good luck!</p>
+    </header>
+
+
+    <div class="tracking">
+        <span id="wins">
+            <h2>Wins: </h2>
+        </span>
+
+
+        <span>
+            <h2>Losses: </h2>
+            <span id="losses"></span>
+        </span>
+
+    </div>
+
+
+    <div>
+
+        <h4 id="targetDisplay">
+
+        </h4>
+
+    </div>
+
+
+
+
+    <div id="crystals">
+        <span class="crystal" id="crystal1">
+            <img src="./assets/images/Crystal1.png" />
+        </span>
+        <span class="crystal" id="crystal2">
+            <img src="./assets/images/Crystal2.png" />
+        </span>
+        <span class="crystal" id="crystal3">
+            <img class="crystal" src="./assets/images/Crystal3.png" />
+        </span>
+        <span class="crystal" id="crystal4">
+            <img class="crystal" src="./assets/images/Crystal4.png" />
+        </span>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>
